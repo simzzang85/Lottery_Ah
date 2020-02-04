@@ -1,0 +1,606 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/wrapper_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            >
+            <TextView
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:text="랜덤 로또 번호"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/wrapper_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20">
+            <TableLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableLayout1"
+                >
+                <TableRow
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:background="@color/blueGrey800"
+                    android:id="@+id/row0">
+                    <TextView
+                        android:text="1st"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/num01" />
+                    <TextView
+                        android:text="2nd"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/num02" />
+                    <TextView
+                        android:text="3rd"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/num03" />
+                    <TextView
+                        android:text="4th"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/num04" />
+                    <TextView
+                        android:text="5th"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/num05" />
+                    <TextView
+                        android:text="6th"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/numSp0" />
+                </TableRow>
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/row1">
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num11" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num12" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num13" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num14" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num15" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/numSp1" />
+                </TableRow>
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/row2">
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num21" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num22" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num23" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num24" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num25" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/numSp2" />
+                </TableRow>
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/row3">
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num31" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num32" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num33" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num34" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num35" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/numSp3" />
+                </TableRow>
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/row4">
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num41" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num42" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num43" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num44" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num45" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/numSp4" />
+                </TableRow>
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/row5">
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num51" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num52" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num53" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num54" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/num55" />
+                    <TextView
+                        android:text="test"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        p4:placeholder="true"
+                        android:minWidth="30px"
+                        android:minHeight="30px"
+                        android:textSize="30dp"
+                        android:id="@+id/numSp5" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/wrapper_ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+            <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5527371243503810/3528818688">
+        </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blueGrey800">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="번호 생성! ->"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5px">
+
+                <Button
+                    android:id="@+id/btnDraw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="로또 번호 생성!"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textAlignment="center"
+                    android:text="How Many?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1" />
+                <RadioGroup
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/radioGroup1">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="1 게임"
+                        android:id="@+id/cnt1" />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3 게임"
+                        android:id="@+id/cnt2" />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5 게임"
+                        android:id="@+id/cnt3" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textAlignment="center"
+                    android:text="What Game?"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+                <RadioGroup
+                    android:gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/radioGroup2">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="나눔 로또"
+                        android:id="@+id/tp1" />
+                    <!--<RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mega Million"
+                        android:id="@+id/tp2" />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Life4Cash"
+                        android:id="@+id/tp3" />-->
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

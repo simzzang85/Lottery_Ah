@@ -1,0 +1,4 @@
+key pw : yjs12345
+
+alias : lottokr
+yjs54321

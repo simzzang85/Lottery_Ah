@@ -18,5 +18,6 @@ public class IntroActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }, 1000);
+        onDestroy();
     }
 }
